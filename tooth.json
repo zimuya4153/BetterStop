@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/zimuya4153/BetterStop",
+    "version": "1.0.0",
+    "info": {
+        "name": "BetterStop",
+        "description": "关服前踢出所有玩家，并显示原因。",
+        "author": "小小的子沐呀",
+        "tags": [
+            "plugin",
+            "lse",
+            "quickjs"
+        ],
+        "avatar_url": "github.com/zimuya4153/BetterStop"
+    },
+    "asset_url": "",
+    "files": {
+        "place": [
+            {
+                "src": "BetterStop.js",
+                "dest": "plugins/BetterStop/BetterStop.js"
+            },
+            {
+              "src": "manifest.json",
+              "dest": "plugins/BetterStop/manifest.json"
+            }
+        ]
+    }
+}

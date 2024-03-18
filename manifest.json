@@ -1,0 +1,13 @@
+{
+    "entry": "BetterStop.js",
+    "name": "BetterStop",
+    "type": "lse-quickjs",
+    "description":"关服前踢出所有玩家，并显示原因。",
+    "author":"小小的子沐呀",
+    "asset_url":"awa",
+    "dependencies": [
+        {
+            "name": "legacy-script-engine-quickjs"
+        }
+    ]
+}
