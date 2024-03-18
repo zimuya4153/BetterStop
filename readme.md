@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 -->
 
-# DroppableDeepSlate
+# BetterStop
 
 给关服加上原因。
 ![Alt text](https://raw.githubusercontent.com/zimuya4153/BetterStop/main/src/img/1.png)
