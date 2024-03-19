@@ -3,8 +3,8 @@
 # BetterStop
 
 给关服加上原因。
-![Alt text](https://raw.githubusercontent.com/zimuya4153/BetterStop/main/src/img/1.png)
-![Alt text](https://raw.githubusercontent.com/zimuya4153/BetterStop/main/src/img/2.png)
+![Alt text](https://raw.github.com/zimuya4153/BetterStop/main/src/img/1.png)
+![Alt text](https://raw.github.com/zimuya4153/BetterStop/main/src/img/2.png)
 
 ```jsonc
 {
