@@ -1,6 +1,8 @@
 {
     "name": "${pluginName}",
     "entry": "${pluginFile}",
-    "version": "${pluginVersion}",
+    "version": "3.0.0",
+    "author":"小小的子沐呀 QQ:1756150362",
+    "description": "更好的关服，为关服加上提示。",
     "type": "native"
 }

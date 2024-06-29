@@ -1,35 +1,29 @@
-# LeviLamina Plugin Template
+# 更好的关服
 
-A LeviLamina plugin template
+## 更好的关服，为你的关服，添加调试信息
 
-This plugin is a template for developing LeviLamina plugins.
+### 使用BSD开源协议，允许用户自由使用、修改和分发代码，但要求用户必须标明原作者的协议。
 
-## Install
+> 此插件并没有采用监听，注册新命令等操作，所以与别的插件适配
 
-Generate a new repository from this template.
+### 怎么使用？
 
-## Usage
+两种方法
+- /stop —— 不输入原因，会使用配置文件默认的default_tip
+- /stop <原因> —— 输入了原因，会使用配置文件的reason_tip，并将${Reason}替换成原因
 
-Before using this plugin template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
+### 配置文件
+```javascript
+{
+    "version": 1, // 配置文件的版本
+    "default_tip": "§c服务器已关闭。", // 默认关服提示
+    "reason_tip": "§c服务器已关闭!\n§a原因§6:§b${Reason}", // 有原因关服提示
+}
+```
 
-1. Clone the new repository into a local folder.
 
-1. Change the plugin name and the expected LeviLamina version in `xmake.lua`.
+### 效果图
 
-1. Add your code.
-
-1. Run `xmake repo -u` in the root of the repository.
-
-1. Run `xmake` to build the plugin.
-
-Now the build is complete at `bin/`.
-
-## Contributing
-
-Ask questions by creating an issue.
-
-PRs accepted.
-
-## License
-
-CC0-1.0 © LiteLDev
+![image](https://s21.ax1x.com/2024/06/30/pkcudsK.png)
+![image](https://s21.ax1x.com/2024/06/30/pkcurIH.png)
+![image](https://s21.ax1x.com/2024/06/30/pkcuDde.png)

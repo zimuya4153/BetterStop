@@ -1,25 +1,29 @@
 {
     "format_version": 2,
-    "tooth": "my-plugin",
-    "version": "0.0.0",
+    "tooth": "github.com/zimuya4153/BetterStop",
+    "version": "3.0.0",
     "info": {
-        "name": "My Plugin Name",
-        "description": "My Plugin Description",
-        "author": "My Name",
+        "name": "BetterStop",
+        "description": "更好的关服，为关服加上提示。",
+        "author": "小小的子沐呀",
+        "source": "github.com/zimuya4153/BetterStop",
         "tags": [
             "levilamina",
-            "plugin"
+            "stop",
+            "stopserver",
+            "reason",
+            "tip"
         ]
     },
-    "asset_url": "My Asset Url",
+    "asset_url": "https://github.com/zimuya4153/BetterStop/releases/download/v3.0.0/BetterStop-3.0.0.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "My LeviLamina Dependency Version"
+        "github.com/LiteLDev/LeviLamina": "0.13.x"
     },
     "files": {
         "place": [
             {
-                "src": "my-plugin/*",
-                "dest": "plugins/my-plugin/"
+                "src": "BetterStop/*",
+                "dest": "plugins/BetterStop/"
             }
         ]
     }
